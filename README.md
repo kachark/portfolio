@@ -1,1 +1,3 @@
-Hello world
+### Built with
+* Svelte/Sveltekit
+* Tailwind CSS

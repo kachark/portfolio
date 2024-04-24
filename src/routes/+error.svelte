@@ -1,5 +1,6 @@
-<svelte:head>
-	<title>404 Not Found</title>
-</svelte:head>
+<script lang="ts">
+  import { page } from '$app/stores';
+</script>
 
-<h1>The page you requested could not be found.</h1>
+<h1 class="text-2xl">Error!</h1>
+<h1>{page.status} : {$page.error.message}</h1>

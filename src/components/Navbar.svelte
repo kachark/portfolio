@@ -16,7 +16,7 @@
         <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl" href="/" >Koray G. Kachar</a>
+    <a class="btn btn-ghost text-xl" href="{base}/" >Koray G. Kachar</a>
   </div>
   <div class="navbar-center hidden lg:flex">
   </div>

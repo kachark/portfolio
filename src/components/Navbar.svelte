@@ -11,7 +11,7 @@
       </div>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li>
-          <a>Projects</a>
+          Projects
         </li>
         <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
       </ul>

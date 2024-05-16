@@ -22,7 +22,7 @@
   </div>
   <div class="navbar-end">
     <ul class="menu menu-horizontal px-1 hidden md:flex">
-      <li><a>Projects</a></li>
+      <li>Projects</li>
       <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
     </ul>
     <div class="md:divider md:divider-horizontal hidden" />

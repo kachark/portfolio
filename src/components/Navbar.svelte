@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import Icon from "@iconify/svelte";
 </script>
 
@@ -12,7 +13,7 @@
         <li>
           <a>Projects</a>
         </li>
-        <li><a href="/kachar_resume_2023.pdf">Resume</a></li>
+        <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/" >Koray G. Kachar</a>
@@ -22,7 +23,7 @@
   <div class="navbar-end">
     <ul class="menu menu-horizontal px-1 hidden md:flex">
       <li><a>Projects</a></li>
-      <li><a href="/kachar_resume_2023.pdf">Resume</a></li>
+      <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
     </ul>
     <div class="md:divider md:divider-horizontal hidden" />
     <a class="mr-2" href="https://github.com/kachark"><Icon icon="mdi:github" width="24" height="24" /></a>

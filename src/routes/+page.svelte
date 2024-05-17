@@ -19,16 +19,39 @@
         </p>
     </div>
   </div>
-  <div class="flex flex-col overflow-hidden p-6">
+  <div class="flex flex-col overflow-hidden pb-6 px-6 lg:pt-6">
     <div class="divider" />
-    <article class="prose lg:prose-xl dark:prose-invert">
 
-      <h3>Experience</h3>
-      <p><i>Apple</i></p>
-      <p><i>Draper Laboratory</i></p>
-      <p><i>University of Michigan</i></p>
-      <p><i>Draper Laboratory</i></p>
-      <h3>Publications</h3>
+    <article class="prose pb-8 lg:prose-xl dark:prose-invert">
+      <h3>Projects</h3>
+    </article>
+    <div class="carousel carousel-center w-full space-x-4 bg-transparent rounded-box">
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" class="rounded-box" />
+      </div> 
+      <div class="carousel-item">
+        <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" class="rounded-box" />
+      </div>
+    </div>
+
+
+    <article class="prose pt-4 lg:prose-xl dark:prose-invert">
+      <h3 class="pt-2">Publications</h3>
       <p>
         <a href="https://ieeexplore.ieee.org/document/9672686"><b>Dynamic multi-agent assignment via discrete optimal transport</b></a>
         <br>

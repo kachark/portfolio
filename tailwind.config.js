@@ -12,8 +12,9 @@ export default {
       }
     },
     fontFamily: {
-      sans: ['Inter', 'SF Pro', '-apple-system', 'system-ui'],
-      mono: ['SF Mono', 'Consolas', 'Liberation Mono', 'monospace']
+      sans: ['Inter'],
+      mono: ['JetBrains Mono'],
+      serif: ['Source Serif Pro']
     },
     fontSize: {
       xs: '0.625rem',

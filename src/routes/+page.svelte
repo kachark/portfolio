@@ -26,7 +26,7 @@
           I'm broadly interested in simulation, data visualization, and learning about artificial intelligence.
           <br class="lg:hidden">
           <br class="lg:hidden">
-          These are some side projects exploring these topics:
+          Here are some side projects exploring these topics:
       </p>
     </article>
     <div class="carousel carousel-center space-x-4 rounded-box">

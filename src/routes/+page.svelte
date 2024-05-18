@@ -12,7 +12,6 @@
         <h1>About me</h1>
         <p>
           I'm an aerospace engineer with experience in defense and tech and a passion for all things space related 🚀
-          <!-- I'm broadly interested in simulation, data visualization, and learning about artificial intelligence. -->
         </p>
         <p>
           I currently work at Apple and support the Satellite Connectivity Group in delivering high impact features to users around the world.
@@ -21,8 +20,14 @@
   </div>
   <div class="divider px-6 lg:px-32 lg:pt-6" />
   <div class="flex flex-col overflow-hidden pb-6 px-6 lg:pt-6">
-    <article class="prose prose-lg pb-6 lg:pb-8 lg:prose-xl dark:prose-invert">
+    <article class="prose prose-lg pb-6 lg:pb-8 lg:prose-xl dark:prose-invert prose-h3:italic">
       <h3>Projects</h3>
+      <p class="prose lg:prose-xl">
+          I'm broadly interested in simulation, data visualization, and learning about artificial intelligence.
+          <br class="lg:hidden">
+          <br class="lg:hidden">
+          These are some side projects exploring these topics:
+      </p>
     </article>
     <div class="carousel carousel-center space-x-4 rounded-box">
       <div id="item1" class="carousel-item w-2/3 lg:w-1/2">
@@ -53,9 +58,9 @@
   </div>
 
   <div class="flex flex-col overflow-hidden pb-6 px-6 lg:pt-6">
-    <article class="prose prose-lg lg:prose-xl dark:prose-invert">
+    <article class="prose prose-lg lg:prose-xl prose-h3:italic dark:prose-invert">
       <h3 class="pt-2">Publications</h3>
-      <p class="prose lg:prose-lg">
+      <p class="prose lg:prose-xl">
         <a href="https://ieeexplore.ieee.org/document/9672686"><b>Dynamic multi-agent assignment via discrete optimal transport</b></a>
         <br>
         <i>IEEE Transactions on Control of Network Systems - Jan. 6, 2022</i>

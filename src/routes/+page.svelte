@@ -32,7 +32,9 @@
     <div class="carousel carousel-center space-x-4 rounded-box">
       <div id="item1" class="carousel-item w-2/3 lg:w-1/2">
         <div class="flex flex-col">
-          <img src="{base}/trajectory_animation.gif" class="rounded-box" />
+          <a href="https://github.com/kachark/formflight-rs">
+            <img src="{base}/trajectory_animation.gif" alt="formflight-rs" class="rounded-box" />
+          </a>
           <article class="prose prose-sm mx-auto">
             <i>Formation flight</i>
           </article>
@@ -40,7 +42,9 @@
       </div> 
       <div id="item2" class="carousel-item w-2/3 lg:w-1/2">
         <div class="flex flex-col">
-          <img src="{base}/ot_between_samples_2d_gaussian.png" class="rounded-box" />
+          <a href="https://github.com/kachark/rust-optimal-transport">
+            <img src="{base}/ot_between_samples_2d_gaussian.png" alt="rust-optimal-transport" class="rounded-box" />
+          </a>
           <article class="prose prose-sm mx-auto">
             <i>Rust optimal transport solvers</i>
           </article>
@@ -48,7 +52,9 @@
       </div> 
       <div id="item3" class="carousel-item w-2/3 lg:w-1/2">
         <div class="flex flex-col">
-          <img src="{base}/5_clohessy_wiltshire.gif" class="rounded-box" />
+          <a href="https://github.com/kachark/mads">
+            <img src="{base}/5_clohessy_wiltshire.gif" alt="mads" class="rounded-box" />
+          </a>
           <article class="prose prose-sm mx-auto">
             <i>Multi-agent dynamics</i>
           </article>

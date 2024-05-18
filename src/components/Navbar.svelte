@@ -11,7 +11,7 @@
       </div>
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a href="{base}/">Projects</a></li>
+        <!-- <li><a href="{base}/">Projects</a></li> -->
         <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
       </ul>
     </div>
@@ -22,7 +22,7 @@
   </div>
   <div class="navbar-end">
     <ul class="menu menu-horizontal px-1 hidden md:flex">
-      <li><a href="{base}/">Projects</a></li>
+      <!-- <li><a href="{base}/">Projects</a></li> -->
       <li><a href="{base}/kachar_resume_2023.pdf">Resume</a></li>
     </ul>
     <div class="md:divider md:divider-horizontal hidden" />

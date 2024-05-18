@@ -24,40 +24,38 @@
     <article class="prose prose-lg pb-6 lg:pb-8 lg:prose-xl dark:prose-invert">
       <h3>Projects</h3>
     </article>
-    <div class="carousel carousel-center space-x-4 bg-transparent rounded-box">
-      <div class="carousel-item w-fit">
+    <div class="carousel carousel-center space-x-4 rounded-box">
+      <div id="item1" class="carousel-item w-2/3 lg:w-1/2">
         <div class="flex flex-col">
-          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" class="rounded-box" />
+          <img src="{base}/trajectory_animation.gif" class="rounded-box" />
           <article class="prose prose-sm mx-auto">
-            <i>Project 1</i>
+            <i>Formation flight</i>
+          </article>
+        </div> 
+      </div> 
+      <div id="item2" class="carousel-item w-2/3 lg:w-1/2">
+        <div class="flex flex-col">
+          <img src="{base}/ot_between_samples_2d_gaussian.png" class="rounded-box" />
+          <article class="prose prose-sm mx-auto">
+            <i>Rust optimal transport solvers</i>
           </article>
         </div>
       </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" class="rounded-box" />
+      <div id="item3" class="carousel-item w-2/3 lg:w-1/2">
+        <div class="flex flex-col">
+          <img src="{base}/5_clohessy_wiltshire.gif" class="rounded-box" />
+          <article class="prose prose-sm mx-auto">
+            <i>Multi-agent dynamics</i>
+          </article>
+        </div> 
       </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" class="rounded-box" />
-      </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" class="rounded-box" />
-      </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" class="rounded-box" />
-      </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" class="rounded-box" />
-      </div> 
-      <div class="carousel-item w-fit">
-        <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" class="rounded-box" />
-      </div>
     </div>
   </div>
 
   <div class="flex flex-col overflow-hidden pb-6 px-6 lg:pt-6">
     <article class="prose prose-lg lg:prose-xl dark:prose-invert">
       <h3 class="pt-2">Publications</h3>
-      <p>
+      <p class="prose lg:prose-lg">
         <a href="https://ieeexplore.ieee.org/document/9672686"><b>Dynamic multi-agent assignment via discrete optimal transport</b></a>
         <br>
         <i>IEEE Transactions on Control of Network Systems - Jan. 6, 2022</i>

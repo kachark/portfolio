@@ -1,3 +1,4 @@
 ### Built with
-* Svelte/Sveltekit
-* Tailwind CSS
+
+- Svelte/Sveltekit
+- Tailwind CSS

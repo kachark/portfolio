@@ -5,7 +5,7 @@
 
 <div class="navbar p-6 shadow-sm max-h-20">
   <div class="navbar-start">
-    <a class="font-serif btn btn-ghost text-xl" href="{base}/" >Koray G. Kachar</a>
+    <a class="btn btn-ghost text-xl" href="{base}/" >Koray G. Kachar</a>
   </div>
   <div class="navbar-end">
     <ul class="menu menu-horizontal px-1 hidden md:flex">

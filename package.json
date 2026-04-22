@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@iconify/svelte": "^3.1.6",
-    "@playwright/test": "^1.28.1",
+    "@playwright/test": "^1.55.1",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/adapter-static": "^3.0.1",
-    "@sveltejs/kit": "^2.0.0",
-    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@sveltejs/kit": "^2.57.1",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@tailwindcss/typography": "^0.5.12",
     "@types/eslint": "^8.56.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
@@ -34,20 +34,40 @@
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
     "prettier-plugin-tailwindcss": "^0.5.14",
-    "svelte": "^4.2.7",
+    "svelte": "^4.2.19",
     "svelte-check": "^3.6.0",
     "svelte-language-server": "^0.16.7",
     "tailwindcss": "^3.4.3",
     "tslib": "^2.4.1",
     "typescript": "^5.0.0",
     "typescript-svelte-plugin": "^0.3.37",
-    "vite": "^5.0.3",
-    "vitest": "^1.2.0"
+    "vite": "^5.4.21",
+    "vitest": "^1.6.1"
   },
   "type": "module",
   "dependencies": {
     "@fontsource/inter": "^5.0.18",
     "@fontsource/jetbrains-mono": "^5.0.20",
     "@fontsource/source-serif-pro": "^5.0.8"
+  },
+  "pnpm": {
+    "overrides": {
+      "brace-expansion@1": "^1.1.12",
+      "brace-expansion@2": "^2.0.3",
+      "braces": "^3.0.3",
+      "micromatch": "^4.0.8",
+      "cross-spawn": "^7.0.5",
+      "nanoid": "^3.3.8",
+      "cookie": "^0.7.0",
+      "glob": "^10.5.0",
+      "lodash": "^4.17.23",
+      "js-yaml": "^4.1.1",
+      "minimatch@3": "^3.1.4",
+      "minimatch@9": "^9.0.7",
+      "ajv": "^6.14.0",
+      "flatted": "^3.4.2",
+      "picomatch": "^2.3.2",
+      "yaml": "^2.8.3"
+    }
   }
 }

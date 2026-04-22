@@ -12,10 +12,13 @@
         <h1 class="font-serif">About me</h1>
         <p>
           I'm an aerospace engineer with experience in defense and tech and a passion for all things
-          space related 🚀
+          space and robotics 🚀🤖
         </p>
         <p>
-          I currently work at Apple and support the Satellite Connectivity Group in delivering high
+          I currently work at Boston Dynamics developing tools to accelerate the development of incredible robots.
+        </p>
+        <p>
+          Previously, I worked at Apple supporting the Satellite Connectivity Group in delivering high
           impact features to users around the world.
         </p>
       </article>
